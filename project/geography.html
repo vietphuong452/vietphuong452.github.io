@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="geography.css">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+
+    <title>Say hello to your daddy</title>
+</head>
+<body id="BackgroundTrue">
+    <div style="font-size: 50px">
+        <div id="London" class="tabcontent">
+            <h1 class="w">Menu</h1>
+            <p class="w">The Menu <a href="index.html">(Click me)</a></p>
+        </div>
+        
+        <div id="Paris" class="tabcontent">
+            <h1 class="w">Achiements</h1>
+            <p class="w">Da Achiements <a href="../project/Achiement.html">(Click me)</a></p> 
+        </div>
+        
+        <div id="Tokyo" class="tabcontent">
+            <h1 class="w">Food</h1>
+            <p class="w"><a class="w" href="../project/food/anthuc.html">Food</a> is da best</p>
+        </div>
+        
+        <div id="Oslo" class="tabcontent">
+            <h1 class="w">FAQs</h1>
+            <p><a class="w" href="../project/faq.html">(Click me)</a></p>
+        </div>
+        <div id="New" class="tabcontent">
+            <h1 class="w">Geography</h1>
+            <p style="color: brown"><a class="w" href="../project/geography.html">Geography</a> - the place where u r now</p>
+        </div>
+        <div id="LOL" class="tabcontent">
+            <h1 class="w">Airplane Tickets</h1>
+            <p style="color: purple"><a class="w" href="../project/fee.html">Price</a> of the airplane</p>
+        </div>
+        
+        <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">MENU </button>
+        <button class="tablink" onclick="openCity('Paris', this, 'green')">ACHIEMENTS</button>
+        <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">FOOD</button>
+        <button class="tablink" onclick="openCity('Oslo', this, 'orange')">FAQs</button>
+        <button class="tablink" onclick="openCity('New', this,'brown')">Geography</button>
+        <button class="tablink" onclick="openCity('LOL', this,'purple')">AIRPLANE TICKET</button>
+        
+        <script>
+        function openCity(cityName,elmnt,color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(cityName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+</div>
+<h1 style="text-align: center; font-size: 80px; margin-top: 70px ">The geography of Da Nang</h1>
+<ul style="font-size: 20px; color: brown; "><li><h1>Da Nang's Climate</h1></li></ul>
+<div><img class="h" src="th.jpg" alt="This is an image"></div>
+<p class="font">Da Nang has a tropical monsoon climate with two seasons: a typhoon and wet season from September to December and a dry season from January to August. Temperatures have an annual average of around 26 °C (79 °F). Cold waves can occasionally occur although they are of short duration. Temperatures are highest between June and August with mean temperatures of 28 to 30 °C (82 to 86 °F)), and lowest between December and February (mean temperature of 18 to 23 °C (64 to 73 °F)). In Ba Na Hills, the temperatures are lower with an annual average of 20 °C (68 °F). The annual average for humidity is 81%, with highs between October and January (reaching 84–86%) and lows between June and August (reaching 75–77%)
+</p>
+<ul style="font-size: 20px; color: brown; "><li><h1>Da Nang's Geology and Todology</h1></li></ul>
+<p class="font">Geologically, Da Nang is situated at the edge of a Paleozoic fold belt known as the Truong Son Orogenic Zone, whose main deformation occurred during the early Carboniferous period.[23] Da Nang's topography is dominated by the steep Annamite mountain range to the north and north-west, which features peaks ranging from 700 to 1,500 metres (2,300 to 4,900 ft) in height, and low-lying coastal plains with some salting to the south and east, with several white sand beaches along the coast.</p>
+
+<div class="one">
+    <p id="zero">The Annamite Range or the Annamese Mountains (French: Chaîne annamitique; Lao: ພູ ຫລວງ Phou Luang; Vietnamese: Dãy (núi) Trường Sơn) is a mountain range of eastern Indochina. It extends approximately 1,100 km (680 mi) through Laos, Vietnam, and a small area in northeast Cambodia. The mountain range is also referred to variously as Annamese Range, Annamese Mountains, Annamese Cordillera, Annamite Mountains and Annamite Cordillera.</p>
+    <div id="one">
+        <img src="https://www.evivatour.com/wp-content/uploads/2014/12/Hoang-Lien-Son-Mountain-Range.jpg
+        " alt="FUckkkk">    
+    </div>
+    
+</div>
+<br> <br> <br>
+<a href="contact.html" class="ab">Contact information</a>
+<a href="about.html" class="ab">About us</a>
+<a href="cookie.html" class="ab">Cookie Policy</a>
+<a href="termac.html" class="ab">Terms and conditions</a>
+<br> <br> <br>
+</body>
+</html>

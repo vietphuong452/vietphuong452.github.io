@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="anthuc.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <title>An thuc</title>
+</head>
+
+
+
+<body style="color: brown; background-color: hsl(197, 74%, 77%); background-image: url(Images/block.gif); background-repeat: repeat-x; font-size: 80px; width: 400px, height: 300px;">
+    
+    
+    <div style="font-size: 50px">
+<div id="London" class="tabcontent">
+        <h1 class="w">Menu</h1>
+        <p class="w">The Menu <a href="../index.html">(Click me)</a></p>
+    </div>
+    
+    <div id="Paris" class="tabcontent">
+        <h1 class="w">Achiements</h1>
+        <p class="w">Da Achiements <a href="../Achiement.html">(Click me)</a></p> 
+    </div>
+    
+    <div id="Tokyo" class="tabcontent">
+        <h1 class="w">Food</h1>
+        <p class="w"><a class="w" href="anthuc.html">Food</a> is da best</p>
+    </div>
+    
+    <div id="Oslo" class="tabcontent">
+        <h1 class="w">FAQs</h1>
+        <p><a class="w" href="../faq.html">(Click me)</a></p>
+    </div>
+    <div id="New" class="tabcontent">
+        <h1 class="w">Geography</h1>
+        <p style="color: brown"><a class="w" href="../geography.html">Geography</a> - the place where u r now</p>
+    </div>
+    <div id="LOL" class="tabcontent">
+        <h1 class="w">Airplane Tickets</h1>
+        <p style="color: purple"><a class="w" href="../fee.html">Price</a> of the airplane</p>
+    </div>
+    
+    <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">MENU </button>
+    <button class="tablink" onclick="openCity('Paris', this, 'green')">ACHIEMENTS</button>
+    <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">FOOD</button>
+    <button class="tablink" onclick="openCity('Oslo', this, 'orange')">FAQs</button>
+    <button class="tablink" onclick="openCity('New', this,'brown')">Geography</button>
+    <button class="tablink" onclick="openCity('LOL', this,'purple')">AIRPLANE TICKET</button>
+    
+            
+            <script>
+            function openCity(cityName,elmnt,color) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+                }
+                document.getElementById(cityName).style.display = "block";
+                elmnt.style.backgroundColor = color;
+            
+            }
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
+    </div>
+    
+    
+
+
+    <div class="hi">
+        <h1 style="font-size: 70px;">Da Nang's Food</h1>
+        <hr style="color:black;>
+        <p class="food">1.Mi Quang (Vietnamese Turmeric Noodles)</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/0/image.jpg" width="800" height="450" alt="">
+        <p class="hello">Mi quang is Da Nang’s definitive dish, featuring rice noodles that are tinted yellow using turmeric and bone broth seasoned with fish sauce, black pepper, shallot, and garlic. Meat toppings include river shrimp, boiled quails eggs, and roast pork, though some eateries use fish, chicken and beef slices. Lastly, the ensemble is topped with an array of fresh herbs such as basil, peanuts, coriander, lettuce, sliced banana flowers, and sesame rice crackers. You can also opt for chilli peppers for a spicy kick to the ensemble. Sold in any local restaurant or market in Da Nang, a bowl of mi quang costs between VND 15,000 and VND 25,000.</p>
+        <p class="food">2.Bun Thit Nuong (Vermicelli Noodles With Grilled Pork)</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/00/image.jpg" width="800" height="450" alt="">
+        <p class="hello">Bun thit nuong comprises thin vermicelli rice noodles, freshly chopped lettuce, sliced cucumber, bean sprouts, pickled daikon, basil, chopped peanuts, and mint, topped with grilled pork shoulder. Diners can also opt for bun thit nuong cha gio, which comes with crunchy slices of cha gio (deep-fried eggrolls). As with most Vietnamese dishes, you also get a side of nuoc cham sauce to mix into the bun thit nuong for a flavourful ensemble.</p>
+        <p class="food">3.Vietnam's BBQ</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/01/image.jpg" width="800" height="450" alt="">
+        <p class="hello">a Nang is particularly popular for its BBQ offerings, where a wide array of fresh seafood and meat slices are barbecued atop a charcoal grill stove. The best place in Da Nang to enjoy this delicacy is Quan Com Hue Ngon at Tran Quoc Toan Street. Each dish is priced between VND 29,000 and VND 59,000, featuring a wide range of marinated ingredients such as squid, frog, octopus, pork breast, shrimp, and cow tendon.</p>
+        <p class="food">4.Fish Cake Noodle</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/02/image.jpg" width="800" height="450" alt="">
+        <p class="hello">un cha ca (fishcake noodle soup) is popular amongst seafood lovers due to its generous chunks of grilled fishcakes, green onions, beansprouts, mint leaves, and fine rice vermicelli noodles. Using a choice of mackerel, barracuda or lizardfish, the meat is marinated with garlic, pepper, salt, and chili before it’s kneaded into small pieces and grilled until fully cooked. Meanwhile, the broth is prepared by simmering a mix of fish bones, pumpkin, cabbage, pineapple, tomato and dried bamboo shoots, resulting in a rich, hearty, and flavourful ensemble.</p>
+        <p class="food">5.Broken Rice</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/03/image.jpg" width="800" height="450" alt="">
+        <p class="hello">Com tam is Vietnamese for ‘broken rice’, a local dish that’s accompanied with fried egg, diced green onions, and a variety of meats such as suon nuong (barbecued pork chop), bi (shredded pork skin), and cha trung (steamed pork and egg patty). Diners can also enjoy this dish with a side of pickled vegetables, cucumber slices, and nuoc cham Vietnamese dipping sauce. With street markets and roadside food stalls selling for about VND 20,000 per bowl, com tam is very popular amongst budget-conscious travellers.</p>
+        <p class="food">6.Vietnam Fried Rice</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/04/image.jpg" width="800" height="450" alt="">
+        <p class="hello">Tom chien is a simple dish of steamed rice and various ingredients that are stir-fried in a sizzling work. Vietnamese fried rice can be enjoyed at any time of the day, making it a good option for those looking to enjoy a simple, quick, filling, and inexpensive dish. Priced at VND 20,000 onwards, com chien utilises leftover steamed rice, garlic-infused oil, and an array of meat, seafood, and fresh vegetables. The dish is then garnished with fried shallots, parsley, and coriander leaves before served with a side of nuoc cham dipping sauce.</p>
+        <p class="food">7.Lemongrass pork skewer</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/05/image.jpg" width="800" height="450" alt="">
+        <p class="hello">Nem lui is a traditional snack that originated from Hue, but is available in Da Nang’s markets, street vendors, and Vietnamese restaurants. Also known as lemongrass pork skewers, the meat is a mixture of milled pork, pigskin, pig oil, salt, pepper, sugar, and a locally grown spice called thinh. The skewers are then grilled on a coal stove before served with a side of rice paper, fresh herbs and vegetables. As with any delicacy in Vietnam, you can also add chilli slices and/or dip it in nuoc cham sauce for added flavour.</p>
+        <p class="food">8.Sugar cane </p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/06/image.jpg" width="800" height="450" alt="">
+        <p class="hello">hao tom is a type of grilled appetiser that’s made of shrimp and garlic paste wrapped around a piece of sugarcane. Soft, rich, with a sweet-savoury flavour, the meaty paste is then removed from the sugarcane, wrapped in lettuce leaves with local herbs, and dipped in nuoc cham dipping sauce. Chao tom is often paired with local beer or wine. Alternatively, you can also chew on the sugarcane to enjoy its sweet juice.</p>
+        <p class="food">9.Crispy Pancake</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/07/image.jpg" width="800" height="450" alt="">
+        <p class="hello">Banh xeo is a savoury pancake that’s made of rice flour, coconut milk, and turmeric, filled with ingredients such as vermicelli noodles, chicken, pork or beef slices, shrimps, sliced onions, beansprouts, and mushrooms. Usually eaten as a snack or appetiser, you can find banh xeo sold at roadside stalls, local markets, and restaurants within Da Nang City Centre. Priced between VND 15,000 and VND 25,000, the best way to enjoy a crispy pancake is by wrapping it in mustard leaf, lettuce leaves or rice papers together with nem lui (lemongrass pork skewers), mint leaves, basil, and dipping in fermented peanut sauce.</p>
+        <p class="food">10.Coconut Jellys</p>
+        <img src="http://static.asiawebdirect.com/m/.imaging/1356x904/website/bangkok/portals/vietnam/homepage/da-nang/top10/top10-da-nang-dishes/allParagraphs/00/top10Set/08/image.jpg" width="800" height="450" alt="">
+        <p class="hello">Light, refreshing with just the right amount of sweetness, you can find numerous dessert cafes selling rau cau trai dua (coconut jelly) along Bach Dang Street, facing the Han River. Priced around VND 25,000, this Da Nang dessert is served in a coconut shell (with its flesh still intact); its top layer is custard-like coconut cream while the bottom consists of jelly that’s made with coconut water. Rau cau trai dua is also a good dessert option for travelling vegans as the jelly is made from seaweed called agar-agar.</p>
+        </div>
+
+
+</body>
+</html>

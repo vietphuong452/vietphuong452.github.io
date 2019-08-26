@@ -1,0 +1,70 @@
+h1 {
+    color: brown;
+}
+
+.hi{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font: 40px; 
+}
+.hello {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.w {
+  color: #BF360C;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 18px;
+    font-size: 17px;
+    width: 16.66%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+    
+  }
+  
+  .tabcontent {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #London {
+    background-image: url(Glimpse-of-Sri-Lanka.jpg);
+    background-size: contain;
+  }
+  #Paris {
+    background-image: url(history1.jpg);
+    background-size: contain;
+  }
+  #Tokyo {
+    background-image: url(a11.jpg);
+    background-size: contain;
+  }
+  #Oslo {background-image: url(ASGA-Home_FAQs_600px1800p_01a.jpg);
+  }
+  #New {background-image: url(../Why-tourists-to-Da-Nang-increased-sharply-in-2015.jpg);
+    background-size: cover;
+  }
+  #LOL {
+  background-image: url(../airplane.jpg);
+  background-size: contain;
+  } 
+  
+
+
+
+
+

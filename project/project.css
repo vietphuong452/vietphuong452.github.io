@@ -1,0 +1,101 @@
+h1{
+    margin left: -40px;
+    color:rgb(107, 230, 231);
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    letter-spacing: 8px
+}
+.nav {
+    display:flex;
+    justify-content: space-around;
+    background-color:rgb(97, 97, 216); 
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.ad{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 35px;
+    margin: 0px 35px 0px 35px;
+}
+
+h2{
+    text-align: center;
+    margin: 160px 0px 15px 0px;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 40px
+}
+
+#b{
+    margin: 30px 0px 20px 0px;
+    width:1500px;
+    height: 380px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 10px 20px 20px;
+    line-height: 40px;
+}
+#hi{
+    margin:60px 0px 15px 350px;
+}
+#he{
+    margin:60px 0px 0px 300px;
+}
+h5{
+    text-align: center;
+    font-family: 'Lexend Exa', sans-serif;
+}
+#h{
+    margin-bottom: 140px
+}
+.ab{
+    margin: 170px 20px 30px 125px;
+    color:rgba(1, 25, 31, 0.863);
+    text-decoration: underline;
+    font-size: 30px;  
+}
+#abc{
+    color: rgb(221, 52, 52);
+    margin-top: 50px;
+    font-size: 30px
+}
+#abc{
+    color: rgb(221, 52, 52);
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 500px
+}
+
+
+#particle-canvas {
+width: 100%;
+height: 330px;
+background: linear-gradient(to bottom, hsl(155, 88%, 39%)0%,rgb(90, 78, 247)) 100%;
+vertical-align: middle;
+}
+
+body {
+background:hsl(197, 51%, 78%);
+}
+main {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.text {
+background: url(https://media.giphy.com/media/3o6Ztb45EYezY9x9gQ/giphy.gif);
+background-size: contain;
+background-position: top left;
+-webkit-background-clip: text;
+color: transparent;
+font-size: 10rem;
+font-weight: bold;
+font-family: sans-serif;
+position: absolute;
+top: 3750px
+}

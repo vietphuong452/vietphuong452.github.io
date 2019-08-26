@@ -1,0 +1,109 @@
+h1 {
+    color: brown;
+    
+}
+
+.hi{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font: 40px; 
+}
+.hello {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.w {
+  color: #BF360C;
+}
+.tablink {             /* Cai nay la css cua may cai button */
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 18px;
+    font-size: 17px;
+    width: 16.6666%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {  /* Cai nay la noi ve setting cua css cua cai box no hien ra link */
+    color: white;
+    display: none;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #London {
+    background-image: url(Glimpse-of-Sri-Lanka.jpg);
+    background-size: contain;
+  }
+  #Paris {
+    background-image: url(history1.jpg);
+    background-size: contain;
+  }
+  #Tokyo {
+    background-image: url(a11.jpg);
+    background-size: contain;
+  }
+  #Oslo {background-image: url(ASGA-Home_FAQs_600px1800p_01a.jpg);
+  }
+
+  #New {background-image: url(Why-tourists-to-Da-Nang-increased-sharply-in-2015.jpg);
+    background-size: cover;
+  }
+  #LOL {
+  background-image: url(../project/airplane.jpg);
+  background-size: contain;
+  }
+
+
+#BackgroundTrue {
+    background-color: #EF9A9A;
+}
+
+.h {
+    margin-left: 380px;    
+    margin-top: 0px;
+    height: 421px;
+    width: 530px;
+    border: 10px solid brown ; 
+}
+.font {
+    font-size: 20px;
+    font-family: 'Hepta Slab', serif;
+
+}
+.one {
+    width: 1100px;
+    height: 362px;
+    border: red solid 4px;
+    background-color: #FFCDD2;
+    display: inline-block; 
+}
+#zero {       /* This is one way to create side-way boxes. */
+    position: absolute;   
+    width: 492px;
+    height: 354px;
+    border: #FFCDD2 solid 4px;
+    margin-left: 600px;
+    margin-top: 0px;
+    size: 15px;
+    font-family: 'Hepta Slab', serif;  
+}
+#one {
+    display: inline-block; 
+}
+.ab{
+  margin: 170px 20px 30px 125px;
+  color:rgba(1, 25, 31, 0.863);
+  text-decoration: underline;
+  font-size: 30px;  
+}

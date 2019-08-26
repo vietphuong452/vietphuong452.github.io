@@ -1,0 +1,71 @@
+body{
+    background-image: url(dd.png);
+}
+h1{
+    text-align: center;
+    color:rgb(78, 78, 192);
+    font-family: 'Merriweather', serif;
+    font-size: 80px;
+    letter-spacing: 8px
+}
+.nav {
+    display:flex;
+    justify-content: space-around;
+    background-color:rgb(97, 97, 216); 
+    text-align: center;
+    margin-bottom: 250px;
+    padding: 20px;
+}
+
+.ad{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 35px;
+    margin: 0px 35px 0px 35px;
+}
+
+#anhto{
+    width: 350px;
+    height: 60px;
+    margin-left: 50px
+}
+#ad{
+    font-size: 30px;
+    margin: -50px 20px 40px 470px;
+    font-family: 'Lexend Peta', sans-serif;
+}
+h5{
+    margin: 0px 0px 0px 1100px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px
+}
+#plane{
+    margin: 0px 0px 0px 1020px;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Barlow', sans-serif;
+}
+#anh{
+    width: 180px;
+    height: 120px;
+    margin:10px 10px 0px 80px
+}
+#anhjs{
+    width: 235px;
+    height: 120px;
+    margin:10px -10px 0px 60px
+}
+#anhvj{
+    width: 300px;
+    height: 120px;
+    margin:10px -10px 0px 60px
+}
+.ab{
+    margin: 170px 20px 30px 125px;
+    color:rgba(1, 25, 31, 0.863);
+    text-decoration: underline;
+    font-size: 30px;  
+}
